@@ -19,7 +19,7 @@ Com esse objetivo, foi desenvolvido essa ferramenta
 
 Deverá ser configurado o arquivo INI para processamento:
 
-atualiza_binario: indica quais a sessoes do arquivo serão executadas
+execbinarios: indica quais a sessoes do arquivo serão executadas
 binario_atualizado: determina onde está o binário atualizado (que será replicado)
 
 # SESSÕES
@@ -45,3 +45,12 @@ ambiente = PARANOA
 - Ajusta o INACTIVETIMEOUT do ambiente para 1800
 - Ajusta o consolemaxsize para 25000000
 - Ajusta o maxstringsize para 15
+
+# PROCESSO
+
+- o que estiver na chave pasta_binario será renomeado para @backup (D:\area_teste\Protheus_Bin\bin\@backup_balance)
+- será criado uma nova pasta baseado na anterior renomeada (D:\area_teste\Protheus_Bin\bin\_balance)
+- será copiado o novo binário (binario_atualizado) para a nova pasta
+- renomeado o arquivo appserver.exe para (appserver_exe)
+- será copiado o arquivo .ini (appserver_ini) da pasta @backup para a nova pasta
+- ajusta o ambiente de acordo com o ajusta_arquivo_ini
