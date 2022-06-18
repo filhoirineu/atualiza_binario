@@ -1,0 +1,1 @@
+pyinstaller main.py -n atualiza_binario --icon update.ico
