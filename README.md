@@ -19,7 +19,7 @@ Com esse objetivo, foi desenvolvido essa ferramenta
 
 Deverá ser configurado o arquivo INI para processamento:
 
-execbinarios: indica quais a sessoes do arquivo serão executadas
+execbinarios: indica quais as sessões do arquivo serão executadas
 binario_atualizado: determina onde está o binário atualizado (que será replicado)
 
 # SESSÕES
