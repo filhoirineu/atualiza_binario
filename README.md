@@ -31,7 +31,6 @@ ambiente: ambiente que sofrerá alterações (funcao ajusta_arquivo_ini)
 
 Exemplo:
 
-
 ```ini
 [_balance]
 pasta_binario = D:\area_teste\Protheus_Bin\bin\_balance
